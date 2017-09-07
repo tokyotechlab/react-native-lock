@@ -28,7 +28,6 @@ package com.auth0.lock.react;
 import com.auth0.core.Strategies;
 import com.auth0.identity.IdentityProvider;
 import com.facebook.react.ReactPackage;
-import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
@@ -143,10 +142,12 @@ public class LockReactPackage implements ReactPackage {
      * NOT USED. This is a required override
      * @see ReactPackage
      */
+     /*
     @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return new ArrayList<>();
     }
+    */
 
     /**
      * NOT USED. This is a required override
